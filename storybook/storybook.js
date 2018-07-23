@@ -4,7 +4,7 @@ import { getStorybookUI, configure } from '@storybook/react-native';
 
 // import stories
 configure(() => {
-  require('./stories/index.stories');
+  require('../src/components/Button/Button.stories');
   
 }, module);
 
