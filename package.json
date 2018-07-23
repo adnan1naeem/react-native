@@ -1,0 +1,33 @@
+{
+  "name": "Bill-ManagerApp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "react-native-scripts": "^1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@storybook/react": "^3.4.8",
+    "@storybook/react-native": "^3.4.8",
+    "awesome-typescript-loader": "^5.2.0",
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-dom": "^16.4.1",
+    "react-native": "^0.55.4",
+    "react-native-web": "^0.8.9",
+    "watchman": "^1.0.0"
+  }
+}
