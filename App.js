@@ -19,7 +19,8 @@
 //     backgroundColor: 'red',
 //     alignItems: 'center',
 //     justifyContent: 'center',
-//   },
+//   },s
 // });
 
-export default  from './storybook';
+import Storybook from './storybook';
+export default Storybook;
